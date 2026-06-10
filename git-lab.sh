@@ -5,3 +5,4 @@ pwd
 whoami
 ip a
 echo "Will be integrate git with jenkins"
+echo "For POLL SCM TESTING"

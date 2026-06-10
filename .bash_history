@@ -22,3 +22,23 @@ sudo ls -l /var/lib/jenkins/workspace
 cd Linux_test
 cat Linux_test
 ls -la
+ls
+mkdir GIT
+nano git-lab.sh
+git init
+git branch main
+git status
+git remote add origin https://github.com/challaSaiGitHub/Git-Lab.git
+git remote -v
+git add .
+git status
+git commit -m"Initial commit"
+git config --global user.name "Sai"
+git config --global user.mail "challasaikumar797@gmail.com"
+git commit -m"Initial commit"
+git add .
+git commit -m"Initial commit"
+git push origin master
+git push -u origin master
+git push -u origin
+git push -u origin master
